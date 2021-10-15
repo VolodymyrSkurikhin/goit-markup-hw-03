@@ -180,7 +180,7 @@ img {
 }
 .projects-flex .item {
   flex-basis: calc((100%-60px) / 3);
-  max-width: 370px;
+  /* max-width: 370px; */
 }
 .projects-flex .item:not(:nth-child(3n)) {
   margin-right: 30px;
