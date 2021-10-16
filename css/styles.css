@@ -143,8 +143,8 @@ img {
 .benefits-flex .item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
-.benefits-flex .item:not(nth-last-child(-n+4)) {
-  margin-bottom: 30;
+.benefits-flex .item:not(:nth-last-child(-n + 4)) {
+  margin-bottom: 30px;
 }
 
 .benefits-title {
@@ -302,7 +302,7 @@ img {
   justify-content: center;
   margin-bottom: 34px;
 }
-.filter-flex .item:not-last-child {
+.filter-flex .item:not(last-child) {
   margin-right: 8px;
 }
 .project-portf-flex {
@@ -312,6 +312,7 @@ img {
 .project-portf-flex .item {
   flex-basis: calc((100%-60px) / 3);
   max-width: 370px;
+  border-bottom: 1px #eeeeee;
 }
 .project-portf-flex .item:not(:nth-child(3n)) {
   margin-right: 30px;
@@ -340,16 +341,17 @@ img {
 }
 .but,
 .but-act {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: inherit;
   text-decoration: none;
+  /* display: block; */
 }
 /* Проекты */
 .project-photo {
